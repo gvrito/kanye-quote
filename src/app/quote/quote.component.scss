@@ -1,0 +1,29 @@
+.random-quote {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    align-items: center;
+    flex-direction: column;
+}
+.actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+    width: 100%;
+}
+.quote {
+    position: relative;
+    img {
+        max-width: 800px;
+    }
+    h1 {
+        position: absolute;
+        bottom: 5%;
+        left: 50%;
+        transform: translate(-50%, 0);
+        color: #cbcbcb;
+    }
+}
